@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 68, 0, 0.147);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(imgs/not\ defteri.jpg);
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#title{
+    font-size: 70px;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.648);
+}
+
+#inputText{
+    width: 300px;
+    height: 45px;
+    border: 5px solid rgb(111, 21, 11);
+    outline: none;
+    vertical-align: middle;
+    font-size: 20px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#addToDo{
+    width: 45px;
+    height: 55px;
+    border: 3px solid rgb(196, 255, 211);
+    outline: none; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(196, 255, 211);
+}
+
+#addToDo:active{
+    background-color: rgb(29, 225, 192);
+}
+
+#clearToDo{
+    width: 55px;
+    height: 55px;
+    border: 3px solid rgb(196, 255, 211);
+    outline: none; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(196, 255, 211);
+}
+
+#clearToDo:active{
+    background-color: rgb(29, 225, 192);
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 25px;
+}
